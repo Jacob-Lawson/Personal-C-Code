@@ -1,11 +1,14 @@
 /*
-A program that fills an original matrix from a text file, the user is asked to enter the No of rows and the No of columns
-while the program defensively checks to ensure each of these numbers are between 1 and 10. Then  it finds the determinant
-of a 2x2sub matrix, with the user being asked to choose the starting row and column, once again checking that these numbers
-are within the limits of the original matrix and able to still produce a 2x2 matrix. A determinant value is calculated for
-the sub matrix which is then used to calculate the inverse matrix. For each new matrix the program asks for the user to
-enter a 1 character name, checking that the user hasn't entered a number. The program also includes detection of special
-cases such as a 1x1 original matrix and a determinant of 0.
+       A program that fills an original matrix from a text file, the user is asked to enter the No of rows and the No of columns
+       while the program defensively checks to ensure each of these numbers are between 1 and 10. Then  it finds the determinant
+       of a 2x2sub matrix, with the user being asked to choose the starting row and column, once again checking that these numbers
+       are within the limits of the original matrix and able to still produce a 2x2 matrix. A determinant value is calculated for
+       the sub matrix which is then used to calculate the inverse matrix. For each new matrix the program asks for the user to
+       enter a 1 character name, checking that the user hasn't entered a number. The program also includes detection of special
+       cases such as a 1x1 original matrix and a determinant of 0.
+
+       Created by: Jacob Lawson
+       Date: 03/08/2020
 */
 
 // required header files to sun code
